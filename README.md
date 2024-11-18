@@ -16,11 +16,11 @@ Base data used in script:
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/maziggy/hassCo2Card/refs/heads/main/screenshots/co2CardGreen2.png)
+![Screenshot](https://raw.githubusercontent.com/maziggy/co2Card/refs/heads/main/screenshots/co2CardGreen2.png)
 
-![Screenshot](https://raw.githubusercontent.com/maziggy/hassCo2Card/refs/heads/main/screenshots/co2CardYellow.png)
+![Screenshot](https://raw.githubusercontent.com/maziggy/co2Card/refs/heads/main/screenshots/co2CardYellow.png)
 
-![Screenshot](https://raw.githubusercontent.com/maziggy/hassCo2Card/refs/heads/main/screenshots/co2CardRed.png)
+![Screenshot](https://raw.githubusercontent.com/maziggy/co2Card/refs/heads/main/screenshots/co2CardRed.png)
 
 ## Installation
 
