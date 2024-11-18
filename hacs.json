@@ -1,0 +1,15 @@
+{
+  "name":  "CO2 Card",
+  "description": "A custom Lovelace card for Home Assistant that checks if CO2 content is in a good range for current grow light PPFD. It has a nice CO2 atom indicator ;)",
+  "content_in_root": true,
+  "render_readme": true,
+  "domains": ["lovelace"],
+  "country": "DE",
+  "iot_class": "local_polling",
+  "documentation": "https://github.com/maziggy/co2Card#readme",
+  "readme": "https://github.com/maziggy/co2Card/blob/main/README.md",
+  "issues": "https://github.com/maziggy/co2Card/issues",
+  "dependencies": [],
+  "codeowners": ["@maziggy"],
+  "filename": "co2Card.min.js"
+}
