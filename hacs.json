@@ -11,8 +11,5 @@
   "issues": "https://github.com/maziggy/co2Card/issues",
   "dependencies": [],
   "codeowners": ["@maziggy"],
-  "filename": "co2Card.min.js",
-  "extra_files": [
-    "assets/co2CardImage.svg"
-  ]  
+  "filename": "co2Card.min.js"
 }
