@@ -4,16 +4,6 @@ A custom Lovelace card for Home Assistant that checks if CO2 content is in a goo
 
 First try writing a custom card. I know it's not perfect. Any contributions, recommendations and comments are welcome!
 
-Base data used in script:
-
-|    PPFD        | CO2 (ppm)  |
-| -------------- | -----------|
-|    200-450     |     400    |
-|    450-800     |     800    |
-|   800-1000     |    1400    |
-|   1000-1400 	 |  > 1400    |
-
-
 ## Screenshot
 
 ![Screenshot](https://raw.githubusercontent.com/maziggy/co2Card/refs/heads/main/screenshots/co2CardGreen2.png)
@@ -44,8 +34,13 @@ or simply
   type: custom:co2Card
   entity: sensor.growbox_water_tds
   entity_ppfd: input_number.grow_ppfd
+  stage: seed|vegetation|flowering
+  seedCo2: desired ppm value for seed stage
+  vegetationCo2: desired ppm value for vegetation stage
+  floweringCo2: desired ppm value for flowering stage
   rangeGreen: 100 # ppm difference to desired value | in range
   rangeYellow: 200 # ppm difference to desired value | slightly out of range
+  rangeRed: 201 # ppm difference to desired value | out of range
   theme:
     bgColor: "#2c2c2e"
     textColor: "#fff"
